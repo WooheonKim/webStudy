@@ -9,3 +9,14 @@ h1{
 .clicked {
     color : pink;
 }
+
+.form,
+.greeting {
+    display : none;
+}
+.showing {
+    display : block;
+}
+h4{
+    color:#34495e;
+}
