@@ -1,0 +1,29 @@
+div.navigator ul {
+    list-style-type: none;
+    margin: -7px;
+    padding: 0px;
+    background-color: #333;
+}
+div.navigator ul:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+div.navigator li {
+    float: left;
+    width : 25%
+}
+div.navigator li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+div.navigator li a:hover:not(.active) {
+    background-color: #222;
+}
+.active {
+    background-color: #436C84;
+}

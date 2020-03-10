@@ -3,11 +3,7 @@ body{
 }
 
 h1{
-    color:#34495e;
-}
-
-.clicked {
-    color : pink;
+    color:#111;
 }
 
 .form,
@@ -18,7 +14,7 @@ h1{
     display : block;
 }
 h4{
-    color:#34495e;
+    color:#111;
 }
 
 @keyframes fadeIn{
@@ -38,8 +34,4 @@ h4{
     height:100%;
     z-index:-1;
     animation: fadeIn 2.0s linear 
- }
-
- button{
-
- }
+}
